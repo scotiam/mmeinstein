@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <img src="mmlogo.png" class="center">
+  <img src="ebblogo.png" class="center" id="ebb">
+
+  <div class="mealmaker">
+    <div class="row">
+      <div class="column">
+        <button id="food">Food</button>
+        <div id="foodAll" style="display: none;">
+
+          <button id="bagels" class="lvl2">Bagels</button><br>
+          <div id="bagelsAll" style="display: none;">
+            <h4>Classic</h4>
+
+            <div class="honeyWhole btn">
+              <h2>Honey Whole Wheat</h2>
+              <span class="dollar-sign honeyWholePrice price">$1.39</span>
+              <div class="add-item">Add</div>
+            </div>
+
+            <div class="cinnamonRaisin btn">
+              <h2>Cinnamon Raisin</h2>
+              <span class="dollar-sign cinnamonRaisinPrice price">$1.39</span>
+              <div class="add-item">Add</div>
+            </div>
+
+            <h4>Signature</h4>
+
+            <div class="cinnamonSugar btn">
+              <h2>Cinnamon Sugar</h2>
+              <span class="dollar-sign cinnamonSugarPrice price">$1.39</span>
+              <div class="add-item">Add</div>
+            </div>
+
+            <h4>Gourmet</h4>
+
+            <div class="sixCheese btn">
+              <h2>Six Cheese</h2>
+              <span class="dollar-sign sixCheesePrice price">$1.99</span>
+              <div class="add-item">Add</div>
+            </div>
+
+            <div class="cheesyHash btn">
+              <h2>Cheesy Hash Brown</h2>
+              <span class="dollar-sign cheesyHashPrice price">$1.99</span>
+              <div class="add-item">Add</div>
+            </div>
+
+          <h3>Shmear</h3>
+
+          <div class="strawberry btn">
+            <h2>Strawberry</h2>
+            <span class="dollar-sign strawberryPrice price">$1.59</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="plain btn">
+            <h2>Plain</h2>
+            <span class="dollar-sign plainPrice price">$1.59</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          </div>
+
+          <button id="eggs" class="lvl2">Egg Sandwiches</button><br>
+          <div id="eggsAll" style="display: none;">
+
+          <h3>Classic...</h3>
+
+          <div class="baconCheddar btn">
+            <h2>Bacon & Cheddar</h2>
+            <span class="dollar-sign baconCheddarPrice price">$4.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="turkeySausage btn">
+            <h2>Turkey Sausage & Cheddar</h2>
+            <span class="dollar-sign turkeySausagePrice price">$4.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="hamSwiss btn">
+            <h2>Ham & Swiss [One Egg]</h2>
+            <span class="dollar-sign hamSwissPrice price">$4.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="hamSwiss2 btn">
+            <h2>Ham & Swiss [Two Eggs]</h2>
+            <span class="dollar-sign hamSwiss2Price price">$5.69</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="cheddarCheese btn">
+            <h2>Cheddar Cheese [One Egg]</h2>
+            <span class="dollar-sign cheddarCheesePrice price">$4.69</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="cheddarCheese2 btn">
+            <h2>Cheddar Cheese [Two Eggs]</h2>
+            <span class="dollar-sign cheddarCheese2Price price">$5.39</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <h3>Signature...</h3>
+
+          <div class="bigBreakfastBurrito btn">
+            <h2>Big Breakfast Burrito</h2>
+            <span class="dollar-sign bigBreakfastBurritoPrice price">$5.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="gardenAvocado btn">
+            <h2>Garden Avocado [One Egg]</h2>
+            <span class="dollar-sign gardenAvocadoPrice price">$4.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="gardenAvocado2 btn">
+            <h2>Garden Avocado [Two Eggs]</h2>
+            <span class="dollar-sign gardenAvocado2Price price">$5.69</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="farmhouse btn">
+            <h2>Farmhouse [One Egg]</h2>
+            <span class="dollar-sign farmhousePrice price">$5.69</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="farmhouse2 btn">
+            <h2>Farmhouse [Two Eggs]</h2>
+            <span class="dollar-sign farmhouse2Price price">$6.29</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="allNighter btn">
+            <h2>All-Nighter</h2>
+            <span class="dollar-sign allNighterPrice price">$6.29</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <h3>Egg White...</h3>
+
+          <div class="santaFe btn">
+            <h2>Santa Fe [One Egg]</h2>
+            <span class="dollar-sign santaFePrice price">$4.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="santaFe2 btn">
+            <h2>Santa Fe [Two Eggs]</h2>
+            <span class="dollar-sign santaFe2Price price">$5.69</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="baconAvocado btn">
+            <h2>Bacon, Avocado & Tomato [One Egg]</h2>
+            <span class="dollar-sign baconAvocadoPrice price">$4.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="baconAvocado2 btn">
+            <h2>Bacon, Avocado & Tomato [Two Eggs]</h2>
+            <span class="dollar-sign baconAvocado2Price price">$5.69</span>
+            <div class="add-item">Add</div>
+          </div>
+
+        </div>
+
+          <button id="eggX" class="lvl2">Egg Extras</button><br>
+          <div id="eggXAll" style="display: none;">
+
+          <div class="makeMeal btn">
+            <h2>Make it a meal: add twice baked hashbrown and medium coffee</h2>
+            <span class="dollar-sign makeMealPrice price">$3.29</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="gourmetIt btn">
+            <h2>Gourmet It: Upgrade to Gourmet Bagel</h2>
+            <span class="dollar-sign gourmetItPrice price">$0.60</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="lightenUp btn">
+            <h2>Lighten Up: Side Egg White</h2>
+            <span class="dollar-sign lightenUpPrice price">$0.60</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="thintastic btn">
+            <h2>Thintastic: Make Your Bagel Thintastic</h2>
+            <span class="dollar-sign thintasticPrice price">$0.60</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="avocadoToast btn">
+            <h2>Avocado Toast</h2>
+            <span class="dollar-sign avocadoToastPrice price">$3.79</span>
+            <div class="add-item">Add</div>
+          </div>
+
+        </div>
+
+          <button id="lunch" class="lvl2">Signature Lunch</button><br>
+          <div id="lunchAll" style="display: none;">
+          <h3>Classic</h3>
+
+          <div class="novaLox btn">
+            <h2>Nova Lox</h2>
+            <span class="dollar-sign novaLoxPrice price">$6.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="turkeyBacon btn">
+            <h2>Turkey Bacon Avocado</h2>
+            <span class="dollar-sign turkeyBaconPrice price">$6.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="tastyTurkey btn">
+            <h2>Tasty Turkey</h2>
+            <span class="dollar-sign tastyTurkeyPrice price">$6.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="avocadoVeg btn">
+            <h2>Avocado Veg Out</h2>
+            <span class="dollar-sign avocadoVegPrice price">$6.59</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <h3>Hot & Toasty</h3>
+
+          <div class="albequerque btn">
+            <h2>Albequerque Turkey</h2>
+            <span class="dollar-sign albequerquePrice price">$6.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="pepperoniChicken btn">
+            <h2>Pepperoni Chicken</h2>
+            <span class="dollar-sign pepperoniChickenPrice price">$6.49</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="spicyChicken btn">
+            <h2>Spicy Chicken</h2>
+            <span class="dollar-sign spicyChickenPrice price">$6.49</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="cheesyVeggie btn">
+            <h2>Cheesy Veggie Melt</h2>
+            <span class="dollar-sign cheesyVeggiePrice price">$6.49</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <h3>Deli Select</h3>
+
+          <div class="hamDeli btn">
+            <h2>Ham & Swiss</h2>
+            <span class="dollar-sign hamDeliPrice price">$6.69</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="turkeyCheddar btn">
+            <h2>Turkey & Cheddar</h2>
+            <span class="dollar-sign turkeyCheddarPrice price">$6.69</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="chickenSalad btn">
+            <h2>Chicken Salad</h2>
+            <span class="dollar-sign chickenSaladPrice price">$6.69</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <h3>Pizza Bagels</h3>
+
+          <div class="cheesePizza btn">
+            <h2>Cheese Pizza Bagel</h2>
+            <span class="dollar-sign cheesePizzaPrice price">$5.79</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="pepperoniPizza btn">
+            <h2>Pepperoni Pizza Bagel</h2>
+            <span class="dollar-sign pepperoniPizzaPrice price">$5.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+        </div>
+
+          <button id="sides" class="lvl2">Sides & Sweets</button><br>
+<div id="sidesAll" style="display: none;">
+          <div class="pumpkinMuffin btn">
+            <h2>Pumpkin Muffin</h2>
+            <span class="dollar-sign pumpkinMuffinPrice price">$2.39</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="twiceBaked btn">
+            <h2>Twice-Baked Hashbrown</h2>
+            <span class="dollar-sign twiceBakedPrice price">$1.39</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="blueberryMuffin btn">
+            <h2>Blueberry Muffin</h2>
+            <span class="dollar-sign blueberryMuffinPrice price">$2.39</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="greekYogurt btn">
+            <h2>Greek Yogurt Cherry Pastry</h2>
+            <span class="dollar-sign greekYogurtPrice price">$2.89</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="coffeeCake btn">
+            <h2>Chocolate Chip Coffee Cake</h2>
+            <span class="dollar-sign coffeeCakePrice price">$2.59</span>
+            <div class="add-item">Add</div>
+          </div>
+
+        </div>
+
+          <button id="grab" class="lvl2">Grab and Go</button>
+          <div id="grabAll" style="display: none;">
+
+          <div class="tastyGrab btn">
+            <h2>Tasty Turkey (Premade)</h2>
+            <span class="dollar-sign tastyGrabPrice price">$6.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="caesarChopped btn">
+            <h2>Caesar Chopped Salad</h2>
+            <span class="dollar-sign caesarChoppedPrice price">$6.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="chickenCaesar btn">
+            <h2>Chicken Caesar Salad</h2>
+            <span class="dollar-sign chickenCaesarPrice price">$6.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="californiaTurkey btn">
+            <h2>California Turkey Club Wrap</h2>
+            <span class="dollar-sign californiaTurkeyPrice price">$6.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="chickenBacon btn">
+            <h2>Chicken and Bacon Caesar Wrap</h2>
+            <span class="dollar-sign chickenBaconPrice price">$6.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="fruitSalad btn">
+            <h2>Fruit Salad</h2>
+            <span class="dollar-sign fruitSaladPrice price">$2.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="superfood btn">
+            <h2>Superfood Overnight Oats</h2>
+            <span class="dollar-sign superfoodPrice price">$3.49</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="berriesCream btn">
+            <h2>Berries and Cream</h2>
+            <span class="dollar-sign berriesCreamPrice price">$2.89</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="bagelChips btn">
+            <h2>Bagel Chips</h2>
+            <span class="dollar-sign bagelChipsPrice price">$1.29</span>
+            <div class="add-item">Add</div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+      <div class="column">
+        <button id="drinks">Drinks</button>
+        <div id="drinksAll" style="display: none;">
+
+          <button id="hot" class="lvl2">Hot</button><br>
+          <div id="hotAll" style="display: none;">
+          <div class="brewedCoffeeM btn">
+            <h2>Brewed Coffee (Medium)</h2>
+            <span class="dollar-sign brewedCoffeeMPrice price">$2.29</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="brewedCoffeeL btn">
+            <h2>Brewed Coffee (Large)</h2>
+            <span class="dollar-sign brewedCoffeeLPrice price">$2.49</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="hotChocolateM btn">
+            <h2>Hot Chocolate (Medium)</h2>
+            <span class="dollar-sign hotChocolateMPrice price">$3.59</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="hotChocolateL btn">
+            <h2>Hot Chocolate (Large)</h2>
+            <span class="dollar-sign hotChocolateLPrice price">$3.89</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="hotTeaS btn">
+            <h2>Hot Tea (Small)</h2>
+            <span class="dollar-sign hotTeaSPrice price">$1.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="hotTeaL btn">
+            <h2>Hot Tea (Large)</h2>
+            <span class="dollar-sign hotTeaLPrice price">$2.29</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="mochaM btn">
+            <h2>Mocha (Medium)</h2>
+            <span class="dollar-sign mochaMPrice price">$4.49</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="mochaL btn">
+            <h2>Mocha (Large)</h2>
+            <span class="dollar-sign mochaLPrice price">$4.79</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="caramelMacM btn">
+            <h2>Caramel Macchiato (Medium)</h2>
+            <span class="dollar-sign caramelMacMPrice price">$4.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="caramelMacL btn">
+            <h2>Caramel Macchiato (Large)</h2>
+            <span class="dollar-sign caramelMacLPrice price">$5.19</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="latteM btn">
+            <h2>Latte (Medium)</h2>
+            <span class="dollar-sign latteMPrice price">$3.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="latteL btn">
+            <h2>Latte (Large)</h2>
+            <span class="dollar-sign latteLPrice price">$4.19</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="chaiTeaM btn">
+            <h2>Chai Tea Latte (Medium)</h2>
+            <span class="dollar-sign chaiTeaMPrice price">$3.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="chaiTeaL btn">
+            <h2>Chai Tea Latte (Large)</h2>
+            <span class="dollar-sign chaiTeaLPrice price">$4.19</span>
+            <div class="add-item">Add</div>
+          </div>
+        </div>
+
+          <button id="iced" class="lvl2">Iced</button><br>
+            <div id="icedAll" style="display: none;">
+          <div class="icedTeaS btn">
+            <h2>Iced Tea (Small)</h2>
+            <span class="dollar-sign icedTeaSPrice price">$1.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="icedTeaL btn">
+            <h2>Iced Tea (Large)</h2>
+            <span class="dollar-sign icedTeaLPrice price">$2.19</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="icedMochaS btn">
+            <h2>Iced Mocha (Small)</h2>
+            <span class="dollar-sign icedMochaSPrice price">$4.59</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="icedMochaL btn">
+            <h2>Iced Mocha (Large)</h2>
+            <span class="dollar-sign icedMochaLPrice price">$4.89</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="icedCaramelMacS btn">
+            <h2>Iced Caramel Macchiato (Small)</h2>
+            <span class="dollar-sign icedCaramelMacSPrice price">$4.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="icedCaramelMacL btn">
+            <h2>Iced Caramel Macchiato (Large)</h2>
+            <span class="dollar-sign icedCaramelMacLPrice price">$5.19</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="icedLatteS btn">
+            <h2>Iced Latte (Small)</h2>
+            <span class="dollar-sign icedLatteSPrice price">$3.69</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="icedLatteL btn">
+            <h2>Iced Latte (Large)</h2>
+            <span class="dollar-sign icedLatteLPrice price">$4.19</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="icedChaiTeaS btn">
+            <h2>Iced Chai Tea Latte (Small)</h2>
+            <span class="dollar-sign icedChaiTeaSPrice price">$3.99</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="icedChaiTeaL btn">
+            <h2>Iced Chai Tea Latte (Large)</h2>
+            <span class="dollar-sign icedChaiTeaLPrice price">$4.19</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <h3>Cold Brew</h3>
+
+          <div class="coldBrewS btn">
+            <h2>Cold Brew (Small): Classic, Vanilla Cream, Caramel Cream</h2>
+            <span class="dollar-sign coldBrewSPrice price">$3.19</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="coldBrewL btn">
+            <h2>Cold Brew (Large): Classic, Vanilla Cream, Caramel Cream</h2>
+            <span class="dollar-sign coldBrewLPrice price">$3.49</span>
+            <div class="add-item">Add</div>
+          </div>
+
+        </div>
+
+          <button id="custom" class="lvl2">Customization</button><br>
+          <div id="customAll" style="display: none;">
+          <div class="flavorShot btn">
+            <h2>Flavor Shot (Vanilla, Caramel, or Chocolate)</h2>
+            <span class="dollar-sign flavorShotPrice price">$0.80</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="espressoShot btn">
+            <h2>Espresso Shot</h2>
+            <span class="dollar-sign espressoShotPrice price">$0.80</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="almondMilk btn">
+            <h2>Almond Milk</h2>
+            <span class="dollar-sign almondMilkPrice price">$0.80</span>
+            <div class="add-item">Add</div>
+          </div>
+        </div>
+
+          <button id="blend" class="lvl2">Blended</button><br>
+          <div id="blendAll" style="display: none;">
+          <div class="strawberryBananaS btn">
+            <h2>Strawberry Banana Smoothie(Small)</h2>
+            <span class="dollar-sign strawberryBananaSPrice price">$4.79</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="strawberryBananaL btn">
+            <h2>Strawberry Banana Smoothie(Large)</h2>
+            <span class="dollar-sign strawberryBananaLPrice price">$5.09</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="coldShakeS btn">
+            <h2>Cold Brew Shake (Small): Vanilla, Caramel, Chocolate</h2>
+            <span class="dollar-sign coldShakeSPrice price">$4.59</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="coldShakeL btn">
+            <h2>Cold Brew Shake (Large): Vanilla, Caramel, Chocolate</h2>
+            <span class="dollar-sign coldShakeLPrice price">$5.29</span>
+            <div class="add-item">Add</div>
+          </div>
+        </div>
+
+          <button id="grabD" class="lvl2">Grab and Go</button><br>
+          <div id="grabDAll" style="display: none;">
+          <div class="pepsi btn">
+            <h2>20oz Pepsi</h2>
+            <span class="dollar-sign pepsiPrice price">$2.29</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="aquafina btn">
+            <h2>16.9oz Aquafina</h2>
+            <span class="dollar-sign aquafinaPrice price">$1.89</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="gatorade btn">
+            <h2>Gatorade</h2>
+            <span class="dollar-sign gatoradePrice price">$2.59</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="pureLeaf btn">
+            <h2>Pure Leaf</h2>
+            <span class="dollar-sign pureLeafPrice price">$2.60</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="blackberry btn">
+            <h2>Blackberry Lemonade 16oz</h2>
+            <span class="dollar-sign blackberryPrice price">$2.29</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="freshOrange btn">
+            <h2>Fresh Orange Juice</h2>
+            <span class="dollar-sign freshOrangePrice price">$2.79</span>
+            <div class="add-item">Add</div>
+          </div>
+
+          <div class="milkChug btn">
+            <h2>Milk Chug</h2>
+            <span class="dollar-sign milkChugPrice price">$1.69</span>
+            <div class="add-item">Add</div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <button id="calculate" class="">Click to Calculate</button>
+    <!-- <button id="testy">test</button> -->
+
+    <div class="total-container">
+      <label class="total-label">Total: </label>
+      <div class="total"></div>
+    </div>
+
+    <button id="reset">Reset</button>
+    <p>base code from <a href="https://github.com/nrwilliams/Food-Calculator">nrwilliams</a></p>
+
+  </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  <script src="script.js"></script>
+  <script src="recommend.js"></script>
+</body>
+
+</html>

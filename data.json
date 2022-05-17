@@ -1,0 +1,428 @@
+{
+	"item": {
+		"food": [{
+			"pizzaBagels": [{
+					"name": "Pepperoni Pizza Bagel",
+					"price": 5.99
+				},
+				{
+					"name": "Cheese Pizza Bagel",
+					"price": 5.79
+				}
+			],
+			"signatureLunch": [{
+				"classic": [{
+						"name": "Nova Lox",
+						"price": 6.99
+					},
+					{
+						"name": "Turkey Bacon Avocado",
+						"price": 6.99
+					},
+					{
+						"name": "Tasty Turkey",
+						"price": 6.99
+					},
+					{
+						"name": "Avocado Veg Out",
+						"price": 6.59
+					}
+				],
+				"hotAndToasty": [{
+						"name": "Albequerque Turkey",
+						"price": 6.99
+					},
+					{
+						"name": "Pepperoni Chicken",
+						"price": 6.49
+					},
+					{
+						"name": "Spicy Chicken",
+						"price": 6.49
+					},
+					{
+						"name": "Cheesy Veggie Melt",
+						"price": 6.49
+					}
+				],
+				"deliSelect": [{
+						"name": "Turkey & Cheddar",
+						"price": 6.69
+					},
+					{
+						"name": "Ham & Swiss",
+						"price": 6.69
+					},
+					{
+						"name": "Chicken Salad",
+						"price": 6.69
+					}
+				]
+			}],
+			"eggSandwiches": [{
+				"classic": [{
+						"name": "Bacon & Cheddar",
+						"price": 4.99,
+						"eggs": 1
+					},
+					{
+						"name": "Turkey Sausage & Cheddar",
+						"price": 4.99,
+						"eggs": 1
+					},
+					{
+						"name": "Ham & Swiss",
+						"price": 4.99,
+						"eggs": 1
+					},
+					{
+						"name": "Ham & Swiss",
+						"price": 5.69,
+						"eggs": 2
+					},
+					{
+						"name": "Cheddar Cheese",
+						"price": 4.69,
+						"eggs": 1
+					},
+					{
+						"name": "Cheddar Cheese",
+						"price": 5.39,
+						"eggs": 1
+					}
+				],
+				"signature": [{
+						"name": "Big Breakfast Burrito",
+						"price": 5.99
+					},
+					{
+						"name": "All-Nighter",
+						"price": 6.29
+					},
+					{
+						"name": "Garden Avocado",
+						"price": 4.99,
+						"eggs": 1
+					},
+					{
+						"name": "Garden Avocado",
+						"price": 5.69,
+						"eggs": 2
+					},
+					{
+						"name": "Farmhouse",
+						"price": 5.69,
+						"eggs": 1
+					},
+					{
+						"name": "Farmhouse",
+						"price": 6.29,
+						"eggs": 2
+					}
+				],
+				"eggWhite": [{
+						"name": "Santa Fe",
+						"price": 4.99,
+						"eggs": 1
+					},
+					{
+						"name": "Santa Fe",
+						"price": 5.69,
+						"eggs": 2
+					},
+					{
+						"name": "Bacon, Avocado & Tomato",
+						"price": 4.99,
+						"eggs": 1
+					},
+					{
+						"name": "Bacon, Avocado & Tomato",
+						"price": 5.69,
+						"eggs": 2
+
+					}
+				]
+			}],
+			"sidesAndSweets": [{
+					"name": "Blueberry Muffin",
+					"price": 2.39
+				},
+				{
+					"name": "Chocolate Chip Coffee Cake",
+					"price": 2.59
+				},
+				{
+					"name": "Greek Yogurt Cherry Pastry",
+					"price": 2.89
+				},
+				{
+					"name": "Pumpkin Muffin",
+					"price": 2.39
+				},
+				{
+					"name": "Twice-Baked Hashbrown",
+					"price": 1.39
+				}
+			],
+			"bagels": [{
+				"classic": [{
+						"name": "Cinnamon Raisin",
+						"price": 1.39
+					},
+					{
+						"name": "Honey Whole Wheat",
+						"price": 1.39
+					}
+				],
+				"signature": [{
+					"name": "Cinnamon Sugar",
+					"price": 1.39
+				}],
+				"gourmet": [{
+						"name": "Cheesy Hash Brown",
+						"price": 1.99
+					},
+					{
+						"name": "Six Cheese",
+						"price": 1.99
+					}
+
+				]
+			}],
+			"shmear": [{
+					"name": "Plain",
+					"price": 1.59
+				},
+				{
+					"name": "Strawberry",
+					"price": 1.59
+				}
+			],
+			"grabAndGo": [{
+					"name": "Tasty Turkey",
+					"price": 6.99
+				},
+				{
+					"name": "Caesar Chopped Salad",
+					"price": 6.99
+				},
+				{
+					"name": "Chicken Caesar Salad",
+					"price": 6.99
+				},
+				{
+					"name": "California Turkey Club Wrap",
+					"price": 6.99
+				},
+				{
+					"name": "Chicken and Bacon Caesar Wrap",
+					"price": 6.99
+				},
+				{
+					"name": "Fruit Salad",
+					"price": 2.99
+				},
+				{
+					"name": "Superfood Overnight Oats",
+					"price": 3.49
+				},
+				{
+					"name": "Berries and Cream",
+					"price": 2.89
+				},
+				{
+					"name": "Bagel Chips",
+					"price": 1.29
+				}
+			],
+			"eggExtras": [{
+					"name": "Avocado Toast",
+					"price": 3.79
+				},
+				{
+					"name": "Gourmet It",
+					"price": 0.60
+				},
+				{
+					"name": "Lighten Up",
+					"price": 0.60
+				},
+				{
+					"name": "Make it a Meal",
+					"price": 3.29
+				},
+				{
+					"name": "Thintastic",
+					"price": 0.60
+				}
+			]
+		}],
+		"drink": [{
+			"blended": [{
+				"name": "Strawberry Banana Smoothie Small",
+				"price": 4.79
+			},
+			{
+				"name": "Strawberry Banana Smoothie (Large)",
+				"price": 5.09
+			},
+			{
+				"name": "Cold Brew Shake (Small) (Chocolate, Vanilla, or Caramel)",
+				"price": 4.59
+			},
+			{
+				"name": "Cold Brew Shake (Large) (Chocolate, Vanilla, or Caramel)",
+				"price": 5.29
+			}
+			],
+			"hot": [{
+				"name": "Brewed Coffee (Medium)",
+				"price": 2.29
+			},
+			{
+				"name": "Brewed Coffee (Large)",
+				"price": 2.49
+			},
+			{
+				"name": "Hot Chocolate (Medium)",
+				"price": 3.59
+			},
+			{
+				"name": "Hot Chocolate (Large)",
+				"price": 3.89
+			},
+			{
+				"name": "Hot Tea (Small)",
+				"price": 1.99
+			},
+			{
+				"name": "Hot Tea (Large)",
+				"price": 2.29
+			},
+			{
+				"name": "Mocha (Medium)",
+				"price": 4.49
+			},
+			{
+				"name": "Mocha (Large)",
+				"price": 4.79
+			},
+			{
+				"name": "Caramel Macchiato (Medium)",
+				"price": 4.99
+			},
+			{
+				"name": "Caramel Macchiato (Large)",
+				"price": 5.19
+			},
+			{
+				"name": "Latte (Medium)",
+				"price": 3.99
+			},
+			{
+				"name": "Latte (Large)",
+				"price": 4.19
+			},
+			{
+				"name": "Chai Tea Latte (Medium)",
+				"price": 3.99
+			},
+			{
+				"name": "Chai Tea Latte (Large)",
+				"price": 4.19
+			}
+			],
+			"iced": [{
+				"name": "Iced Tea (Small)",
+				"price": 1.99
+			},
+			{
+				"name": "Iced Tea (Large)",
+				"price": 2.19
+			},
+			{
+				"name": "Iced Mocha (Small)",
+				"price": 4.59
+			},
+			{
+				"name": "Iced Mocha (Large)",
+				"price": 4.89
+			},
+			{
+				"name": "Iced Caramel Macchiato (Small)",
+				"price": 4.99
+			},
+			{
+				"name": "Iced Caramel Macchiato (Large)",
+				"price": 5.19
+			},
+			{
+				"name": "Iced Latte (Small)",
+				"price": 3.69
+			},
+			{
+				"name": "Iced Latte (Large)",
+				"price": 4.19
+			},
+			{
+				"name": "Iced Chai Tea Latte (Small)",
+				"price": 3.99
+			},
+			{
+				"name": "Iced Chai Tea Latte (Large)",
+				"price": 4.19
+			},
+			{
+				"name": "Cold Brew (Small)",
+				"price": 3.19
+			},
+			{
+				"name": "Cold Brew (Large)",
+				"price": 3.49
+			}
+			],
+			"customization": [{
+				"name": "Flavor Shot (Vanilla, Caramel, or Chocolate)",
+				"price": 0.80
+			},
+			{
+				"name": "Espresso Shot",
+				"price": 0.80
+			},
+			{
+				"name": "Almond Milk",
+				"price": 0.80
+			}
+			],
+			"grabAndGo": [{
+				"name": "20oz Pepsi",
+				"price": 2.29
+			},
+			{
+				"name": "16.9oz Aquafina",
+				"price": 1.89
+			},
+			{
+				"name": "Gatorade",
+				"price": 2.59
+			},
+			{
+				"name": "Pure Leaf",
+				"price": 2.60
+			},
+			{
+				"name": "Blackberry Lemonade 16oz",
+				"price": 2.29
+			},
+			{
+				"name": "Fresh Orange Juice",
+				"price": 2.79
+			},
+			{
+				"name": "Milk Chug",
+				"price": 1.69
+			}
+			]
+		}]
+	}
+}
